@@ -1,10 +1,13 @@
 puts "計算を始めます。"
 puts "何回計算を行いますか？"
 
+#inputを定義
 input = gets.to_i
+#i=1を初期の値
 i = 1
 while i <= input do
 
+##{i}で変数の文字を表示
   puts "#{i}回目の計算"
   puts "2つの値を入力してください。"
 
