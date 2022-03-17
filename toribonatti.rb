@@ -8,7 +8,9 @@ c = gets.to_i
 puts "何番目の数字を求めますか？"
 t = gets.to_i
 
+#nを絶対値であるという定義
 n = 0
+#アルゴリズム的にtを4以上の数字として定義
 while n < (t - 3)
   d = a + b + c
   a = b
